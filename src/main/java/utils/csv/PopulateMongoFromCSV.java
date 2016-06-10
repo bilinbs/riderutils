@@ -20,7 +20,7 @@ public class PopulateMongoFromCSV {
     public static final String LONGITUDE = "lon";
     public static void main(String[] args){
         if(args.length < 2){
-            System.out.println("Usage : PopulateMongoFromCSV <csv path> <userid>");
+            System.out.println("Usage : utils.csv.PopulateMongoFromCSV <csv path> <userid>");
             System.exit(1);
         }
         String csvPath = args[0];
